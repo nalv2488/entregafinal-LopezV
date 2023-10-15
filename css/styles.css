@@ -1,18 +1,199 @@
-/* Error: Undefined mixin.
- *    ,
- * 58 |     @include header-foote
- *    |     ^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\_main.scss 58:5  @import
- *   scss\styles.scss 3:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 58 \2502      @include header-foote\a    \2502      ^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_main.scss 58:5  @import\a   scss\\styles.scss 3:9  root stylesheet";
+/** Archivo Variables **/
+/* Paleta de colores */
+/*Fuente Principal*/
+/*Resoluciones de Pantalla*/
+/*Mixins*/
+/*Espaciados*/
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+h1, h2 {
+  color: #37003c;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #37003c;
+  background-color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.carousel-item img {
+  height: 50vh;
+}
+
+.carousel {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 320px) {
+  #carouselExampleAutoplaying {
+    width: 100%;
+  }
+}
+header {
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  background-color: #37003c;
+  padding: 10px 0;
+  position: sticky;
+  z-index: 1;
+  color: #fff;
+  justify-content: space-evenly;
+}
+header img {
+  justify-content: space-between;
+}
+
+footer {
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  bottom: 0;
+  margin: 0;
+  background-color: #37003c;
+  padding: 10px 0;
+  position: sticky;
+  z-index: 1;
+  color: #fff;
+  justify-content: space-evenly;
+}
+
+.h3-pl {
+  color: #37003c;
+}
+
+.bi-color {
+  color: #fff;
+}
+
+.logo-epl-main {
+  height: 60px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-top: 3px;
+  background-color: #37003c;
+}
+
+nav {
+  background-color: #37003c;
+  height: 100%;
+  position: sticky;
+}
+
+.bi-brid-cl {
+  color: #fff;
+}
+
+.nav-color {
+  /* background-color: $color-primario; */
+  color: #fff;
+}
+.nav-color a {
+  background-color: #37003c;
+  color: #fff;
+}
+
+.a-rrss {
+  color: #37003c;
+  font-size: large;
+}
+
+.pl-color {
+  background-color: #37003c !important;
+}
+
+th {
+  width: 200px;
+}
+
+.container-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 300px;
+  filter: grayscale(0%);
+  transition: filter 0.2s;
+}
+.card-img-top:hover {
+  filter: grayscale(100%);
+}
+
+@media (max-width: 767px) {
+  .container-cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.div-stadium {
+  align-items: center;
+  padding-top: 5px;
+  gap: 5px;
+  border-color: #37003c;
+  display: flex;
+}
+.div-stadium .card {
+  justify-content: center;
+  align-items: center;
+}
+.div-stadium h3 {
+  margin-bottom: 25px;
+  color: #37003c;
+}
+.div-stadium p {
+  color: #37003c;
+}
+
+.stadium-img {
+  width: 250px;
+  height: 150px;
+}
+.stadium-img:hover {
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.p-history-origins {
+  color: #37003c;
+}
+
+.p-rules-tournament {
+  color: #37003c;
+}
+
+.p-team-description {
+  color: #37003c;
+}
+
+.team-logo-img {
+  width: 100px;
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  padding: 5px;
+}
+.team-logo-img:hover {
+  width: 120px;
+}
+
+/*# sourceMappingURL=styles.css.map */
