@@ -1,0 +1,33 @@
+
+.div-stadium{
+    align-items: center;
+    padding-top: 5px;
+    gap: $espaciado-simple;
+    border-color: $color-primario;
+    display: flex;
+    // height: 650px;
+
+    .card{
+        justify-content: center;
+        align-items: center;
+    }
+    h3{
+        margin-bottom: $espaciado-general + 5;
+        color: $color-primario;
+    }
+
+    p{
+        color: $color-primario;
+    }
+}
+
+.stadium-img {
+    width: 250px;
+    height: 150px;
+
+    &:hover {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    }
+}
