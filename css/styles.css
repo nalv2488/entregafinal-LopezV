@@ -4,58 +4,6 @@
 /*Resoluciones de Pantalla*/
 /*Mixins*/
 /*Espaciados*/
-.div-stadium {
-  align-items: center;
-  padding-top: 5px;
-  gap: 5px;
-  border-color: #37003c;
-  display: flex;
-}
-.div-stadium .card {
-  justify-content: center;
-  align-items: center;
-}
-.div-stadium h3 {
-  margin-bottom: 25px;
-  color: #37003c;
-}
-.div-stadium p {
-  color: #37003c;
-}
-
-.stadium-img {
-  width: 250px;
-  height: 150px;
-}
-.stadium-img:hover {
-  width: 400px;
-  height: 200px;
-  border-radius: 5px;
-}
-
-.p-history-origins {
-  color: #37003c;
-}
-
-.p-rules-tournament {
-  color: #37003c;
-}
-
-.p-team-description {
-  color: #37003c;
-}
-
-.team-logo-img {
-  width: 100px;
-  position: relative;
-  margin-top: 10px;
-  display: flex;
-  padding: 5px;
-}
-.team-logo-img:hover {
-  width: 120px;
-}
-
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -194,6 +142,57 @@ th {
   .card {
     width: 100%;
   }
+}
+.div-stadium {
+  align-items: center;
+  padding-top: 5px;
+  gap: 5px;
+  border-color: #37003c;
+  display: flex;
+}
+.div-stadium .card {
+  justify-content: center;
+  align-items: center;
+}
+.div-stadium h3 {
+  margin-bottom: 25px;
+  color: #37003c;
+}
+.div-stadium p {
+  color: #37003c;
+}
+
+.stadium-img {
+  width: 250px;
+  height: 150px;
+}
+.stadium-img:hover {
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.p-history-origins {
+  color: #37003c;
+}
+
+.p-rules-tournament {
+  color: #37003c;
+}
+
+.p-team-description {
+  color: #37003c;
+}
+
+.team-logo-img {
+  width: 100px;
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  padding: 5px;
+}
+.team-logo-img:hover {
+  width: 120px;
 }
 
 /*# sourceMappingURL=styles.css.map */
