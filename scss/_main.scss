@@ -107,6 +107,16 @@ th{
     width: 200px;
 }
 
+@media (max-width:$tablet) {
+    .container-cards {
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 .container-cards {
     display: flex;
     align-items:flex-start;
@@ -126,15 +136,5 @@ th{
 
     &:hover {
         filter: grayscale(100%);
-    }
-}
-
-@media (max-width:$tablet) {
-    .container-cards {
-        flex-direction: column;
-    }
-    .card{
-        width: 100%;
-        margin: 0 auto;
     }
 }

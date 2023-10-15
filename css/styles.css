@@ -114,6 +114,15 @@ th {
   width: 200px;
 }
 
+@media (max-width: 767px) {
+  .container-cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .container-cards {
   display: flex;
   align-items: flex-start;
@@ -135,15 +144,6 @@ th {
   filter: grayscale(100%);
 }
 
-@media (max-width: 767px) {
-  .container-cards {
-    flex-direction: column;
-  }
-  .card {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
 .div-stadium {
   align-items: center;
   padding-top: 5px;
